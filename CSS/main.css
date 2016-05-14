@@ -1,0 +1,181 @@
+.nav a{
+	color: #5a5a5a;
+	font-size: 11px;
+	font-weight: bold;
+	padding: 14px 10px;
+	text-transform: uppercase;
+}
+
+.nav li{
+	display: inline;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.photobanner {
+	height: 230px;
+	width: 3550px ;
+	margin-bottom :20px;
+}
+
+/*keyframe animations*/
+.first {
+ -webkit-animation: bannermove 60s linear infinite;
+    -moz-animation: bannermove 60s linear infinite;
+     -ms-animation: bannermove 60s linear infinite;
+      -o-animation: bannermove 60s linear infinite;
+         animation: bannermove 60s linear infinite;
+}
+ 
+@keyframes "bannermove" {
+ 0% {
+    margin-left: 0px;
+ }
+ 100% {
+    margin-left: -2125px;
+ }
+ 
+}
+ 
+@-moz-keyframes bannermove {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+ 
+}
+ 
+@-webkit-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+ 
+}
+ 
+@-ms-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+ 
+}
+ 
+@-o-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+ 
+}
+
+
+.photobanner img:hover {
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);
+ -ms-transform: scale(1.1);
+ transform: scale(1.1);
+ cursor: pointer;
+ 
+ -webkit-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+ -moz-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+ box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+}
+
+.jumbotron{
+	background-image: url('http://orig09.deviantart.net/a1ef/f/2010/335/c/1/spatial_panoramic_by_light_hiruma-d33znxp.png');
+	height: 400px;
+}
+
+.jumbotron .container {
+	position: center;
+	top: 100px;
+	margin-left : 450px;
+	margin-top: 50px;
+	color : white;
+}
+
+
+.jumbotron h1{
+	font-size: 48px;
+	font-family: 'Shift' ,sans-serif;
+	font-weight: bold;
+
+}
+
+.jumbotron p{
+	font-size: 20px;
+	color : #fff;
+	margin-left : 20px;
+}
+
+.learn-more{
+	background-color: #f7f7f7;
+}
+
+.learn-more h3{
+	font-family: 'Shift',sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.learn-more a{
+	color : #00b0ff;
+}
+
+.neighborhood-guides h2{
+	color: #393c3d;
+	font-size: 24px;
+}
+
+.neighborhood-guides p{
+
+	margin-bottom: 13px;
+	font-size:15px;
+}
+
+
+.footer {
+	margin-bottom: 13px;
+	text-align: center;
+	font-size: 13px;
+	font-style: italic;
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+
+.circular {
+	width : 200px;
+	height: 200px;
+	border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	background: url(https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAV3AAAAJDllYTc1YjRhLTFhNjktNGRiYy05ZGE1LWYwNzIxNzFjZDVhMw.jpg) no-repeat;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	position:fixed;
+	top:50%;
+	left:50%;
+}
+
+.social_icons{
+	padding-bottom: 1.5em;
+	padding-left:1em;
+}
